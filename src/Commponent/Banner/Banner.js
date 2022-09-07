@@ -7,7 +7,7 @@ function Banner() {
   const [Movie, setMovie] = useState();
   useEffect(()=>{
     axios.get(`discover/movie?api_key=${API_KEY}&with_genres=28`).then((response)=>{
-      setMovie(response.data.results[13])
+      setMovie(response.data.results[1])
     })
   },[])
   return (
