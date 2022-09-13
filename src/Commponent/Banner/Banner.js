@@ -7,7 +7,7 @@ function Banner() {
   const [Movie, setMovie] = useState();
   useEffect(()=>{
     axios.get(`discover/movie?api_key=${API_KEY}&with_genres=28`).then((response)=>{
-      setMovie(response.data.results[3])
+      setMovie(response.data.results[1])
     })
   },[])
   return (
@@ -18,7 +18,7 @@ function Banner() {
             <div className="content">
                 <h1 className='title'>{Movie?Movie.title:""}</h1>
                 <div className="banner_buttons">
-                    <button className='button'>PLay</button>
+                    <button className='button '>PLay</button>
                     <button className='button'>My List</button>
                 </div>
                 <h1 className='discription'>{Movie? Movie.overview:""}</h1>
