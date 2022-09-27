@@ -1,29 +1,31 @@
 .banner{
     background-size: cover;
-    height: 500px;
+    height: 700px;
     color: white;
     
 }
 .content{
-    padding-top: 140px;
+    padding-top: 200px;
     height: 190px;
     padding-left: 15px;
 }
 .title{
     font-size: 3rem;
     font-weight: 800;
-    padding-bottom: 0.3rem;
+    padding-bottom: 5.0rem;
+    position: relative;
+    top: 72px;
 }
 .button{
     color: white;
     outline: none;
     border: none;
-    font-weight: 700;
+    font-weight: 750;
     border-radius: 5px;
     padding-right: 2rem;
     padding-left: 2rem;
     padding-top: 0.5rem;
-    padding-bottom: 0.5;
+    padding-bottom: 0.3rem;
     background-color: rgb(51,51, 51,0.5);
     cursor: pointer;
     margin-right: 1rem;
@@ -43,6 +45,8 @@
     max-width: 360px;
 }
 .fade_buttom{
-    height: 10.6rem;
+    height: 13.5rem;
+    position: relative;
+    top: 5.9rem;
     background-image: linear-gradient(180deg,transparent,rgba(37,37,37,.61),#111);
 }

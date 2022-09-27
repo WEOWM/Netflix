@@ -7,3 +7,6 @@ export const HorrorMovies =`discover/movie?api_key=${API_KEY}&with_genres=27`
 export const ActionMovies =`discover/movie?api_key=${API_KEY}&with_genres=28`
 export const RomanceMovies =`discover/movie?api_key=${API_KEY}&with_genres=10749`
 export const Documentaries = `discover/movie?api_key=${API_KEY}&with_genres=99`
+export const Upcoming =`movie/upcoming?api_key=${API_KEY}&launguage-US&page=1`
+export const TopRated =`movie/top_rated?api_key=${API_KEY}&launguage-US&page=1`
+
