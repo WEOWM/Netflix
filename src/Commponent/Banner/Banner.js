@@ -16,20 +16,24 @@ function Banner() {
   console.log(Movies);
   return (
 
-    <div>
-      <div style={{ backgroundImage: `url(${Movies ? imageUrl + Movies.backdrop_path : ""}) ` }}
-        className='banner'>
-        <div className="content">
-          <h1 className='title'>{Movies ? Movies.title : ""}</h1>
-          <div className="banner_buttons">
-            <button className='button '>PLay</button>
-            <button className='button'>My List</button>
-          </div>
-          <h1 className='discription'>{Movies ? Movies.overview : ""}</h1>
-        </div>
-        <div className="fade_buttom"></div>
-      </div>
+    <div className='row'>
+      <div className='col'>
 
+        <div style={{ backgroundImage: `url(${Movies ? imageUrl + Movies.backdrop_path : ""}) ` }}
+          className='banner'>
+          <div className="content">
+            <h1 className='title'>{Movies ? Movies.title : ""}</h1>
+            <div className="banner_buttons">
+              <button className='button '>PLay</button>
+              <button className='button'>My List</button>
+            </div>
+            <p className='release'>Released: {Movies?.release_date}</p>
+            <h1 className='discription'>{Movies ? Movies.overview : ""}</h1>
+          </div>
+          <div className="fade_buttom"></div>
+        </div>
+
+      </div>
     </div>
   )
 }

@@ -5,16 +5,17 @@
     
 }
 .content{
-    padding-top: 200px;
+    padding-top: 130px;
     height: 190px;
-    padding-left: 15px;
+    padding-left: 19px;
 }
 .title{
     font-size: 3rem;
     font-weight: 800;
     padding-bottom: 5.0rem;
     position: relative;
-    top: 72px;
+    top: 50px;
+    
 }
 .button{
     color: white;
@@ -47,6 +48,10 @@
 .fade_buttom{
     height: 13.5rem;
     position: relative;
-    top: 5.9rem;
+    top: 18.4rem;
     background-image: linear-gradient(180deg,transparent,rgba(37,37,37,.61),#111);
+}
+.release{
+    position: relative;
+    top: 8px;
 }
