@@ -14,12 +14,12 @@ function App() {
       <Rowpost url={Upcoming} title='Upcoming'isSmall/>
       <Rowpost url={TopRated} title='TopRated'isSmall/>
       <Rowpost url={trending} title='Trending'isSmall/>
+      <Rowpost url={Popular} title='Popular'isSmall/>
       <Rowpost url={action} title='Action Movies'isSmall/>
       <Rowpost url={HorrorMovies} title='Horror Movies 'isSmall/>
       <Rowpost url={ComedyMovies} title='Comedy Movies 'isSmall/>
       <Rowpost url={RomanceMovies} title='Romance Movies 'isSmall/>
       <Rowpost url={Documentaries} title='Documentaries'isSmall/>
-      <Rowpost url={Popular} title='Popular'isSmall/>
       
      
       

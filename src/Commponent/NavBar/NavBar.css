@@ -3,21 +3,42 @@
     position: fixed;
     left: 20px;
     width: 80px;
+    cursor: pointer;
 
 }
-.avatar{
+.main-btn{
+    
     position: fixed;
-    right: 20px;
-    width: 30px;
+    right: 30px;
+    cursor: pointer;
+  
 }
 .navbar{
     position: fixed;
     top: 0%;
     width: 100%;
-    height: 30px;
+    height: 80px;
     padding: 20px;
     display: flex;
     justify-content: space-between;
     background-color: #111;
     z-index: 1000;
 }
+.nav-btn{
+    color: #fff;
+    border-radius: 0;
+    
+}
+.nav-btn:hover{
+    color: #fff;
+}
+.nav-btn-singin{
+    color: #fff;
+    border-radius: 0%;
+}
+.nav-btn-singin:hover{
+    background-color: #fff;
+    
+
+}
+
