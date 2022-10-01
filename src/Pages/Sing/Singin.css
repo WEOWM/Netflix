@@ -1,0 +1,40 @@
+.backdrop{
+
+ 
+    height: 48rem;
+    background-color: rgba(17, 17, 17, 0.61);
+    position: absolute;
+    top: 0%;
+
+}
+.sing-page{
+    width: 29%;
+    height: 420px;
+    background-color:rgba(17, 17, 17, 0.884);
+    position: absolute;
+    bottom: 10%;
+    left: 29rem;
+    border-radius: 0.3rem;
+    color: #fff;
+    
+
+
+}
+.inp-form{
+    display: flex;
+    flex-direction: column;
+}.al{
+    margin-top: 2rem;
+    
+}
+
+.ro{
+    display: flex;
+    flex-direction: row;
+    color: gray ;
+}
+.signbtn{
+    background-color: #e50914;
+}.sing-logo{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
