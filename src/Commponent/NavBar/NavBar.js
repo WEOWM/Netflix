@@ -11,7 +11,6 @@ function NavBar() {
        <NavLink to={"/signin"} type="button " className=" nav-btn-singin btn  me-2">Sing In</NavLink>
         <NavLink to={"/signup"} type="button"  className="nav-btn btn  ">Sing Up</NavLink>
        </div>
-
     </div>
   )
 }
