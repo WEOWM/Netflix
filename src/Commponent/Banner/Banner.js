@@ -6,7 +6,7 @@ import './Banner.css'
 function Banner() {
   const [Movie, setMovie] = useState([]);
 
-  const Movies = Movie[Math.floor(Math.random() * Movie.length)]
+  const Movies = Movie[Math.floor(Math.random() + Movie.length)]
 
   useEffect(() => {
     axios.get(`movie/upcoming?api_key=${API_KEY}&launguage-US&page=1`).then((response) => {
